@@ -13,8 +13,8 @@ You need the following installed on your machine:
 
 1. **Clone the repository and navigate to the folder:**
 ```bash
-git clone https://github.com/yourusername/sous-io.git
-cd sous-io
+git clone https://github.com/yourusername/sous.git
+cd sous
 ```
 
 2. **Install dependencies:**
