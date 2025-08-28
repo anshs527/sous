@@ -13,7 +13,7 @@ You need the following installed on your machine:
 
 1. **Clone the repository and navigate to the folder:**
 ```bash
-git clone https://github.com/yourusername/sous.git
+git clone https://github.com/anshs527/sous.git
 cd sous
 ```
 
