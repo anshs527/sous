@@ -1,0 +1,805 @@
+{
+  "recipes": [],
+  "favorites": [],
+  "history": [
+    {
+      "searchIngredients": [
+        "chicken breast",
+        "pesto",
+        "parmesan",
+        "pasta"
+      ],
+      "recipes": [
+        {
+          "id": "mock_1",
+          "title": "Creamy Pesto Chicken Pasta",
+          "description": "A rich and creamy pasta dish with tender chicken and fresh basil pesto.",
+          "cookTime": "25 mins",
+          "servings": "4",
+          "sourceUrl": "https://www.allrecipes.com/recipe/creamypestochicken",
+          "imageUrl": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=400",
+          "rating": "4.8",
+          "ingredients": [
+            "chicken breast",
+            "pesto",
+            "pasta",
+            "parmesan"
+          ],
+          "cuisine": "Italian",
+          "difficulty": "Easy",
+          "createdAt": "2025-10-12T21:59:25.907Z"
+        },
+        {
+          "id": "mock_2",
+          "title": "Garlic Parmesan Chicken with Pasta",
+          "description": "Juicy chicken breast smothered in garlic butter and parmesan cheese, served over pasta.",
+          "cookTime": "30 mins",
+          "servings": "4",
+          "sourceUrl": "https://www.foodnetwork.com/recipes/garlic-parmesan-chicken",
+          "imageUrl": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?w=400",
+          "rating": "4.9",
+          "ingredients": [
+            "chicken breast",
+            "parmesan",
+            "pasta",
+            "garlic"
+          ],
+          "cuisine": "Italian",
+          "difficulty": "Medium",
+          "createdAt": "2025-10-12T21:59:25.907Z"
+        },
+        {
+          "id": "mock_3",
+          "title": "Pesto Pasta with Cherry Tomatoes",
+          "description": "Fresh pesto pasta tossed with sweet cherry tomatoes and topped with parmesan.",
+          "cookTime": "20 mins",
+          "servings": "3",
+          "sourceUrl": "https://www.tasteofhome.com/recipes/pesto-pasta-tomatoes",
+          "imageUrl": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=400",
+          "rating": "4.7",
+          "ingredients": [
+            "pesto",
+            "pasta",
+            "parmesan",
+            "tomatoes"
+          ],
+          "cuisine": "Italian",
+          "difficulty": "Easy",
+          "createdAt": "2025-10-12T21:59:25.908Z"
+        },
+        {
+          "id": "mock_4",
+          "title": "One-Pot Chicken and Pasta",
+          "description": "Easy one-pot meal with chicken, pasta, and vegetables in a creamy sauce.",
+          "cookTime": "35 mins",
+          "servings": "4",
+          "sourceUrl": "https://www.delish.com/recipe/one-pot-chicken-pasta",
+          "imageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?w=400",
+          "rating": "4.6",
+          "ingredients": [
+            "chicken breast",
+            "pasta",
+            "parmesan"
+          ],
+          "cuisine": "American",
+          "difficulty": "Easy",
+          "createdAt": "2025-10-12T21:59:25.908Z"
+        },
+        {
+          "id": "mock_5",
+          "title": "Pesto Chicken Skillet",
+          "description": "Quick and easy skillet meal with chicken, vegetables, and pesto sauce.",
+          "cookTime": "25 mins",
+          "servings": "4",
+          "sourceUrl": "https://www.budgetbytes.com/pesto-chicken-skillet",
+          "imageUrl": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400",
+          "rating": "4.5",
+          "ingredients": [
+            "chicken breast",
+            "pesto",
+            "parmesan"
+          ],
+          "cuisine": "Italian",
+          "difficulty": "Easy",
+          "createdAt": "2025-10-12T21:59:25.908Z"
+        },
+        {
+          "id": "mock_6",
+          "title": "Lemon Pesto Pasta",
+          "description": "Bright and zesty pasta dish with fresh lemon, pesto, and parmesan cheese.",
+          "cookTime": "15 mins",
+          "servings": "3",
+          "sourceUrl": "https://www.simplyrecipes.com/recipes/lemon_pesto_pasta",
+          "imageUrl": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=400",
+          "rating": "4.8",
+          "ingredients": [
+            "pesto",
+            "pasta",
+            "parmesan",
+            "lemon"
+          ],
+          "cuisine": "Italian",
+          "difficulty": "Easy",
+          "createdAt": "2025-10-12T21:59:25.908Z"
+        }
+      ],
+      "timestamp": "2025-10-12T21:59:26.933Z"
+    },
+    {
+      "searchIngredients": [
+        "chicken breast",
+        "pesto",
+        "pasta",
+        "parmesan"
+      ],
+      "recipes": [
+        {
+          "id": "mock_1",
+          "title": "Creamy Pesto Chicken Pasta",
+          "description": "A rich and creamy pasta dish with tender chicken and fresh basil pesto.",
+          "cookTime": "25 mins",
+          "servings": "4",
+          "sourceUrl": "https://www.allrecipes.com/recipe/creamypestochicken",
+          "imageUrl": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=400",
+          "rating": "4.8",
+          "ingredients": [
+            "chicken breast",
+            "pesto",
+            "pasta",
+            "parmesan"
+          ],
+          "cuisine": "Italian",
+          "difficulty": "Easy",
+          "createdAt": "2025-10-12T21:59:25.907Z"
+        },
+        {
+          "id": "mock_2",
+          "title": "Garlic Parmesan Chicken with Pasta",
+          "description": "Juicy chicken breast smothered in garlic butter and parmesan cheese, served over pasta.",
+          "cookTime": "30 mins",
+          "servings": "4",
+          "sourceUrl": "https://www.foodnetwork.com/recipes/garlic-parmesan-chicken",
+          "imageUrl": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?w=400",
+          "rating": "4.9",
+          "ingredients": [
+            "chicken breast",
+            "parmesan",
+            "pasta",
+            "garlic"
+          ],
+          "cuisine": "Italian",
+          "difficulty": "Medium",
+          "createdAt": "2025-10-12T21:59:25.907Z"
+        },
+        {
+          "id": "mock_3",
+          "title": "Pesto Pasta with Cherry Tomatoes",
+          "description": "Fresh pesto pasta tossed with sweet cherry tomatoes and topped with parmesan.",
+          "cookTime": "20 mins",
+          "servings": "3",
+          "sourceUrl": "https://www.tasteofhome.com/recipes/pesto-pasta-tomatoes",
+          "imageUrl": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=400",
+          "rating": "4.7",
+          "ingredients": [
+            "pesto",
+            "pasta",
+            "parmesan",
+            "tomatoes"
+          ],
+          "cuisine": "Italian",
+          "difficulty": "Easy",
+          "createdAt": "2025-10-12T21:59:25.908Z"
+        },
+        {
+          "id": "mock_4",
+          "title": "One-Pot Chicken and Pasta",
+          "description": "Easy one-pot meal with chicken, pasta, and vegetables in a creamy sauce.",
+          "cookTime": "35 mins",
+          "servings": "4",
+          "sourceUrl": "https://www.delish.com/recipe/one-pot-chicken-pasta",
+          "imageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?w=400",
+          "rating": "4.6",
+          "ingredients": [
+            "chicken breast",
+            "pasta",
+            "parmesan"
+          ],
+          "cuisine": "American",
+          "difficulty": "Easy",
+          "createdAt": "2025-10-12T21:59:25.908Z"
+        },
+        {
+          "id": "mock_5",
+          "title": "Pesto Chicken Skillet",
+          "description": "Quick and easy skillet meal with chicken, vegetables, and pesto sauce.",
+          "cookTime": "25 mins",
+          "servings": "4",
+          "sourceUrl": "https://www.budgetbytes.com/pesto-chicken-skillet",
+          "imageUrl": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400",
+          "rating": "4.5",
+          "ingredients": [
+            "chicken breast",
+            "pesto",
+            "parmesan"
+          ],
+          "cuisine": "Italian",
+          "difficulty": "Easy",
+          "createdAt": "2025-10-12T21:59:25.908Z"
+        },
+        {
+          "id": "mock_6",
+          "title": "Lemon Pesto Pasta",
+          "description": "Bright and zesty pasta dish with fresh lemon, pesto, and parmesan cheese.",
+          "cookTime": "15 mins",
+          "servings": "3",
+          "sourceUrl": "https://www.simplyrecipes.com/recipes/lemon_pesto_pasta",
+          "imageUrl": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=400",
+          "rating": "4.8",
+          "ingredients": [
+            "pesto",
+            "pasta",
+            "parmesan",
+            "lemon"
+          ],
+          "cuisine": "Italian",
+          "difficulty": "Easy",
+          "createdAt": "2025-10-12T21:59:25.908Z"
+        }
+      ],
+      "timestamp": "2025-10-12T22:00:19.989Z"
+    },
+    {
+      "searchIngredients": [
+        "chicken breast",
+        "pesto",
+        "pasta",
+        "parmesan"
+      ],
+      "recipes": [
+        {
+          "id": "mock_1",
+          "title": "Creamy Pesto Chicken Pasta",
+          "description": "A rich and creamy pasta dish with tender chicken and fresh basil pesto.",
+          "cookTime": "25 mins",
+          "servings": "4",
+          "sourceUrl": "https://www.allrecipes.com/recipe/creamypestochicken",
+          "imageUrl": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=400",
+          "rating": "4.8",
+          "ingredients": [
+            "chicken breast",
+            "pesto",
+            "pasta",
+            "parmesan"
+          ],
+          "cuisine": "Italian",
+          "difficulty": "Easy",
+          "createdAt": "2025-10-13T01:50:04.691Z"
+        },
+        {
+          "id": "mock_2",
+          "title": "Garlic Parmesan Chicken with Pasta",
+          "description": "Juicy chicken breast smothered in garlic butter and parmesan cheese, served over pasta.",
+          "cookTime": "30 mins",
+          "servings": "4",
+          "sourceUrl": "https://www.foodnetwork.com/recipes/garlic-parmesan-chicken",
+          "imageUrl": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?w=400",
+          "rating": "4.9",
+          "ingredients": [
+            "chicken breast",
+            "parmesan",
+            "pasta",
+            "garlic"
+          ],
+          "cuisine": "Italian",
+          "difficulty": "Medium",
+          "createdAt": "2025-10-13T01:50:04.691Z"
+        },
+        {
+          "id": "mock_3",
+          "title": "Pesto Pasta with Cherry Tomatoes",
+          "description": "Fresh pesto pasta tossed with sweet cherry tomatoes and topped with parmesan.",
+          "cookTime": "20 mins",
+          "servings": "3",
+          "sourceUrl": "https://www.tasteofhome.com/recipes/pesto-pasta-tomatoes",
+          "imageUrl": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=400",
+          "rating": "4.7",
+          "ingredients": [
+            "pesto",
+            "pasta",
+            "parmesan",
+            "tomatoes"
+          ],
+          "cuisine": "Italian",
+          "difficulty": "Easy",
+          "createdAt": "2025-10-13T01:50:04.691Z"
+        },
+        {
+          "id": "mock_4",
+          "title": "One-Pot Chicken and Pasta",
+          "description": "Easy one-pot meal with chicken, pasta, and vegetables in a creamy sauce.",
+          "cookTime": "35 mins",
+          "servings": "4",
+          "sourceUrl": "https://www.delish.com/recipe/one-pot-chicken-pasta",
+          "imageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?w=400",
+          "rating": "4.6",
+          "ingredients": [
+            "chicken breast",
+            "pasta",
+            "parmesan"
+          ],
+          "cuisine": "American",
+          "difficulty": "Easy",
+          "createdAt": "2025-10-13T01:50:04.691Z"
+        },
+        {
+          "id": "mock_5",
+          "title": "Pesto Chicken Skillet",
+          "description": "Quick and easy skillet meal with chicken, vegetables, and pesto sauce.",
+          "cookTime": "25 mins",
+          "servings": "4",
+          "sourceUrl": "https://www.budgetbytes.com/pesto-chicken-skillet",
+          "imageUrl": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400",
+          "rating": "4.5",
+          "ingredients": [
+            "chicken breast",
+            "pesto",
+            "parmesan"
+          ],
+          "cuisine": "Italian",
+          "difficulty": "Easy",
+          "createdAt": "2025-10-13T01:50:04.691Z"
+        },
+        {
+          "id": "mock_6",
+          "title": "Lemon Pesto Pasta",
+          "description": "Bright and zesty pasta dish with fresh lemon, pesto, and parmesan cheese.",
+          "cookTime": "15 mins",
+          "servings": "3",
+          "sourceUrl": "https://www.simplyrecipes.com/recipes/lemon_pesto_pasta",
+          "imageUrl": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=400",
+          "rating": "4.8",
+          "ingredients": [
+            "pesto",
+            "pasta",
+            "parmesan",
+            "lemon"
+          ],
+          "cuisine": "Italian",
+          "difficulty": "Easy",
+          "createdAt": "2025-10-13T01:50:04.691Z"
+        }
+      ],
+      "timestamp": "2025-10-13T01:50:05.705Z"
+    },
+    {
+      "searchIngredients": [
+        "chicken breast",
+        "pesto",
+        "pasta",
+        "parmesan"
+      ],
+      "recipes": [
+        {
+          "title": "Pesto Chicken Pasta",
+          "description": "A simple yet flavorful weeknight dinner featuring tender chicken, pasta, and vibrant pesto sauce.",
+          "cookTime": "25 mins",
+          "servings": "4",
+          "sourceUrl": "https://www.allrecipes.com/recipe/213508/pesto-chicken-pasta/",
+          "imageUrl": "https://www.allrecipes.com/thmb/pX6z2N-LzDqf8oK1-F6w2b8tG5U=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/213508-pesto-chicken-pasta-mfs-67-1641324c431d4e688484e51147e85c13.jpg",
+          "rating": "4.7",
+          "ingredients": [
+            "chicken breast",
+            "pesto",
+            "pasta",
+            "parmesan"
+          ],
+          "cuisine": "Italian-American",
+          "difficulty": "Easy",
+          "id": "recipe_1760416020149_0",
+          "createdAt": "2025-10-14T04:27:00.149Z"
+        },
+        {
+          "title": "Creamy Pesto Chicken Pasta",
+          "description": "This rich and comforting pasta dish combines tender chicken with a luscious creamy pesto sauce.",
+          "cookTime": "30 mins",
+          "servings": "4",
+          "sourceUrl": "https://www.delish.com/cooking/recipe-ideas/a30147986/creamy-pesto-chicken-pasta-recipe/",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/creamy-pesto-chicken-pasta-6477d9c6e5a06.jpg?crop=1xw:0.8427777777777778xh;center,top&resize=980:*",
+          "rating": "4.8",
+          "ingredients": [
+            "chicken breast",
+            "pesto",
+            "pasta",
+            "parmesan"
+          ],
+          "cuisine": "Italian-American",
+          "difficulty": "Easy",
+          "id": "recipe_1760416020149_1",
+          "createdAt": "2025-10-14T04:27:00.149Z"
+        },
+        {
+          "title": "Pesto Chicken and Pasta Bake",
+          "description": "A satisfying baked casserole dish featuring tender chicken, pesto-coated pasta, and plenty of melted cheese.",
+          "cookTime": "45 mins",
+          "servings": "6",
+          "sourceUrl": "https://www.budgetbytes.com/pesto-chicken-pasta-bake/",
+          "imageUrl": "https://www.budgetbytes.com/wp-content/uploads/2022/02/Pesto-Chicken-Pasta-Bake-plated.jpg",
+          "rating": "4.9",
+          "ingredients": [
+            "chicken breast",
+            "pesto",
+            "pasta",
+            "parmesan"
+          ],
+          "cuisine": "Italian-American",
+          "difficulty": "Easy",
+          "id": "recipe_1760416020149_2",
+          "createdAt": "2025-10-14T04:27:00.149Z"
+        },
+        {
+          "title": "One Pot Pesto Chicken Pasta",
+          "description": "This quick and easy one-pot meal features tender chicken and pasta coated in a vibrant pesto sauce, perfect for busy weeknights.",
+          "cookTime": "30 mins",
+          "servings": "4",
+          "sourceUrl": "https://www.budgetbytes.com/one-pot-pesto-chicken-pasta/",
+          "imageUrl": "https://www.budgetbytes.com/wp-content/uploads/2023/06/One-Pot-Pesto-Chicken-Pasta-plated.jpg",
+          "rating": "4.9",
+          "ingredients": [
+            "chicken breast",
+            "pesto",
+            "pasta",
+            "parmesan"
+          ],
+          "cuisine": "Italian-American",
+          "difficulty": "Easy",
+          "id": "recipe_1760416020149_3",
+          "createdAt": "2025-10-14T04:27:00.149Z"
+        },
+        {
+          "title": "Pesto Chicken Pasta Salad",
+          "description": "A refreshing cold pasta salad combining juicy chicken, pesto, and other fresh ingredients, perfect for picnics or light meals.",
+          "cookTime": "25 mins",
+          "servings": "6",
+          "sourceUrl": "https://www.allrecipes.com/recipe/213031/pesto-chicken-pasta-salad/",
+          "imageUrl": "https://www.allrecipes.com/thmb/9mE-u43Xq-Y5F5-q1A9Z6_jW37c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/213031-pesto-chicken-pasta-salad-mfs-53-ddae98e09f5342a3921b7147b30f531d.jpg",
+          "rating": "4.6",
+          "ingredients": [
+            "chicken breast",
+            "pesto",
+            "pasta",
+            "parmesan"
+          ],
+          "cuisine": "American",
+          "difficulty": "Easy",
+          "id": "recipe_1760416020149_4",
+          "createdAt": "2025-10-14T04:27:00.149Z"
+        },
+        {
+          "title": "Skillet Pesto Chicken Pasta",
+          "description": "This easy one-pan skillet dinner delivers tender chicken and pasta tossed in a rich pesto sauce in under 30 minutes.",
+          "cookTime": "25 mins",
+          "servings": "4",
+          "sourceUrl": "https://www.thecookierookie.com/skillet-pesto-chicken-pasta/",
+          "imageUrl": "https://www.thecookierookie.com/wp-content/uploads/2023/08/skillet-pesto-chicken-pasta-recipe-3-of-4.jpg",
+          "rating": "5.0",
+          "ingredients": [
+            "chicken breast",
+            "pesto",
+            "pasta",
+            "parmesan"
+          ],
+          "cuisine": "Italian-American",
+          "difficulty": "Easy",
+          "id": "recipe_1760416020149_5",
+          "createdAt": "2025-10-14T04:27:00.149Z"
+        },
+        {
+          "title": "Classic Chicken Pesto Pasta",
+          "description": "A quick and delicious weeknight dinner featuring perfectly cooked pasta and tender, pan-seared chicken breast coated in aromatic pesto.",
+          "cookTime": "30 mins",
+          "servings": "4",
+          "sourceUrl": "https://www.simplyrecipes.com/recipes/chicken_pesto_pasta/",
+          "imageUrl": "https://www.simplyrecipes.com/thmb/Yx2q808D3R4jK33K1Q-pQ2wQoXs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Chicken-Pesto-Pasta-LEAD-5-e1ee698663ed4d48a86774e14f6b28ee.jpg",
+          "rating": "4.7",
+          "ingredients": [
+            "chicken breast",
+            "pesto",
+            "pasta",
+            "parmesan"
+          ],
+          "cuisine": "Italian-American",
+          "difficulty": "Easy",
+          "id": "recipe_1760416020149_6",
+          "createdAt": "2025-10-14T04:27:00.149Z"
+        }
+      ],
+      "timestamp": "2025-10-14T04:27:00.149Z"
+    },
+    {
+      "searchIngredients": [
+        "cheddar cheese",
+        "macaroni",
+        "bacon",
+        "coconut milk"
+      ],
+      "recipes": [
+        {
+          "title": "Creamy Coconut Macaroni and Cheese with Bacon",
+          "description": "A rich and indulgent macaroni and cheese made extra creamy with coconut milk, perfectly complemented by crispy bacon.",
+          "cookTime": "35 mins",
+          "servings": "4",
+          "sourceUrl": "https://www.recipetineats.com/coconut-milk-mac-and-cheese/",
+          "imageUrl": "https://www.recipetineats.com/wp-content/uploads/2021/04/Coconut-Milk-Mac-and-Cheese-A.jpg",
+          "rating": "4.8",
+          "ingredients": [
+            "cheddar cheese",
+            "macaroni",
+            "bacon",
+            "coconut milk"
+          ],
+          "cuisine": "American",
+          "difficulty": "Easy",
+          "id": "recipe_1760416671944_0",
+          "createdAt": "2025-10-14T04:37:51.944Z"
+        },
+        {
+          "title": "One-Pot Cheesy Bacon Macaroni with Coconut Milk Sauce",
+          "description": "A simple and delicious one-pot pasta dish featuring a rich coconut milk sauce and cheddar cheese, made even better with crispy bacon.",
+          "cookTime": "30 mins",
+          "servings": "4",
+          "sourceUrl": "https://www.budgetbytes.com/one-pot-creamy-coconut-milk-pasta/",
+          "imageUrl": "https://www.budgetbytes.com/wp-content/uploads/2020/07/One-Pot-Coconut-Milk-Pasta-hero.jpg",
+          "rating": "4.7",
+          "ingredients": [
+            "cheddar cheese",
+            "macaroni",
+            "bacon",
+            "coconut milk"
+          ],
+          "cuisine": "American / Fusion",
+          "difficulty": "Easy",
+          "id": "recipe_1760416671944_1",
+          "createdAt": "2025-10-14T04:37:51.944Z"
+        },
+        {
+          "title": "Baked Macaroni and Cheese with Coconut Milk & Bacon Topping",
+          "description": "A decadent baked macaroni and cheese made extra creamy with coconut milk, offering a comforting classic taste with a delicious bacon crumble topping.",
+          "cookTime": "50 mins",
+          "servings": "8",
+          "sourceUrl": "https://www.allrecipes.com/recipe/282434/creamy-coconut-milk-mac-and-cheese-bake/",
+          "imageUrl": "https://www.allrecipes.com/thmb/p2P7fI63JbK49w6j3G1wT4yQ-2I=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/282434-creamy-coconut-milk-mac-and-cheese-bake-photo-by-julie-julie-2000-0e104e12e2f342738b36582531d0d935.jpg",
+          "rating": "4.5",
+          "ingredients": [
+            "cheddar cheese",
+            "macaroni",
+            "bacon",
+            "coconut milk"
+          ],
+          "cuisine": "American",
+          "difficulty": "Medium",
+          "id": "recipe_1760416671944_2",
+          "createdAt": "2025-10-14T04:37:51.944Z"
+        },
+        {
+          "title": "Creamy Coconut Curry Macaroni with Crispy Bacon & Cheddar",
+          "description": "A comforting and flavorful pasta dish featuring a rich coconut curry sauce, elevated by crispy bacon and a sprinkle of sharp cheddar cheese.",
+          "cookTime": "30 mins",
+          "servings": "4",
+          "sourceUrl": "https://www.budgetbytes.com/creamy-coconut-curry-pasta/",
+          "imageUrl": "https://www.budgetbytes.com/wp-content/uploads/2020/09/Creamy-Coconut-Curry-Pasta-hero.jpg",
+          "rating": "4.6",
+          "ingredients": [
+            "cheddar cheese",
+            "macaroni",
+            "bacon",
+            "coconut milk"
+          ],
+          "cuisine": "Fusion (Southeast Asian/Italian)",
+          "difficulty": "Easy",
+          "id": "recipe_1760416671944_3",
+          "createdAt": "2025-10-14T04:37:51.944Z"
+        },
+        {
+          "title": "Hearty Coconut Milk & Cheddar Macaroni Casserole with Bacon",
+          "description": "A comforting chicken casserole where a creamy coconut milk sauce envelops macaroni and cheddar, topped with crispy bacon.",
+          "cookTime": "1 hour",
+          "servings": "6",
+          "sourceUrl": "https://www.thespruceeats.com/creamy-coconut-chicken-casserole-3059881",
+          "imageUrl": "https://www.thespruceeats.com/thmb/pXqG06sS7jP6f3qg7g1O_xVqg1Q=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/creamy-coconut-chicken-casserole-3059881-hero-01-f3b14948a9ae4d62b66d48c9ec65a111.jpg",
+          "rating": "4.2",
+          "ingredients": [
+            "cheddar cheese",
+            "macaroni",
+            "bacon",
+            "coconut milk"
+          ],
+          "cuisine": "American",
+          "difficulty": "Medium",
+          "id": "recipe_1760416671944_4",
+          "createdAt": "2025-10-14T04:37:51.944Z"
+        },
+        {
+          "title": "Crispy Macaroni & Bacon Fritters with Coconut-Cheddar Dip",
+          "description": "Deliciously crispy fritters made from cheesy macaroni and bacon, perfect for snacking or a light meal, served with a creamy coconut milk-based dipping sauce.",
+          "cookTime": "30 mins",
+          "servings": "4",
+          "sourceUrl": "https://www.seriouseats.com/mac-and-cheese-fritters-recipe",
+          "imageUrl": "https://www.seriouseats.com/thmb/Wc_p3i_W9HqS4B53pE7qN8B9LKY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/20200219-mac-and-cheese-fritters-vicky-wasik-15-e0186566432b49e6912389659f8c6b73.jpg",
+          "rating": "4.8",
+          "ingredients": [
+            "cheddar cheese",
+            "macaroni",
+            "bacon",
+            "coconut milk"
+          ],
+          "cuisine": "American",
+          "difficulty": "Medium",
+          "id": "recipe_1760416671944_5",
+          "createdAt": "2025-10-14T04:37:51.944Z"
+        }
+      ],
+      "timestamp": "2025-10-14T04:37:51.945Z"
+    },
+    {
+      "searchIngredients": [
+        "chicken breast",
+        "parmesan",
+        "pasta",
+        "pesto"
+      ],
+      "recipes": [
+        {
+          "title": "Creamy Pesto Chicken Pasta",
+          "description": "A comforting pasta dish featuring tender chicken, a rich pesto cream sauce, and Parmesan cheese.",
+          "cookTime": "30 mins",
+          "servings": "6",
+          "sourceUrl": "https://www.allrecipes.com/recipe/213508/creamy-pesto-chicken-pasta/",
+          "imageUrl": "https://www.allrecipes.com/thmb/T1vFj3uH0i3e_d6yG2yJg_bE4mI=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/213508_Creamy-Pesto-Chicken-Pasta_ddmfs_4x3_0267-9d7a26f8d1ce4999b808796637b51b3d.jpg",
+          "rating": "4.6",
+          "ingredients": [
+            "chicken breast",
+            "parmesan",
+            "pasta",
+            "pesto"
+          ],
+          "cuisine": "Italian-American",
+          "difficulty": "Easy",
+          "id": "recipe_1760541488269_0",
+          "createdAt": "2025-10-15T15:18:08.269Z"
+        },
+        {
+          "title": "Chicken Pesto Parmesan Pasta Bake",
+          "description": "A hearty and flavorful baked pasta dish combining chicken, pesto, and generous amounts of Parmesan cheese for an easy weeknight meal.",
+          "cookTime": "45 mins",
+          "servings": "6",
+          "sourceUrl": "https://www.food.com/recipe/chicken-pesto-parmesan-pasta-bake-364716",
+          "imageUrl": "https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_80,w_414,h_311/v1/img/recipes/36/47/16/PICU0U6gD.jpg",
+          "rating": "4.6",
+          "ingredients": [
+            "chicken breast",
+            "parmesan",
+            "pasta",
+            "pesto"
+          ],
+          "cuisine": "Italian-American",
+          "difficulty": "Medium",
+          "id": "recipe_1760541488269_1",
+          "createdAt": "2025-10-15T15:18:08.269Z"
+        },
+        {
+          "title": "Pesto Chicken Parmesan",
+          "description": "A delicious twist on classic chicken Parmesan, featuring basil pesto spread on tender chicken breasts and topped with cheese, often served with pasta.",
+          "cookTime": "45 mins",
+          "servings": "4",
+          "sourceUrl": "https://www.foodnetwork.com/recipes/food-network-kitchen/pesto-chicken-parmesan-3362635",
+          "imageUrl": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2017/12/11/0/FNK_Pesto-Chicken-Parmesan_s4x3.jpg.rend.hgtvcom.616.462.suffix/1513028303031.jpeg",
+          "rating": "4.5",
+          "ingredients": [
+            "chicken breast",
+            "parmesan",
+            "pesto"
+          ],
+          "cuisine": "Italian-American",
+          "difficulty": "Medium",
+          "id": "recipe_1760541488269_2",
+          "createdAt": "2025-10-15T15:18:08.269Z"
+        },
+        {
+          "title": "Chicken Pesto Pasta Salad",
+          "description": "A refreshing cold pasta salad packed with tender chicken, vibrant pesto, and salty Parmesan cheese, perfect for a light meal or potluck.",
+          "cookTime": "25 mins",
+          "servings": "6",
+          "sourceUrl": "https://www.delish.com/cooking/recipe-ideas/a27618828/chicken-pesto-pasta-salad-recipe/",
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/190410-chicken-pesto-pasta-salad-029-1555523091.jpg?crop=0.668xw:1.00xh;0.0632xw,0&resize=980:*",
+          "rating": "4.7",
+          "ingredients": [
+            "chicken breast",
+            "parmesan",
+            "pasta",
+            "pesto"
+          ],
+          "cuisine": "American",
+          "difficulty": "Easy",
+          "id": "recipe_1760541488269_3",
+          "createdAt": "2025-10-15T15:18:08.269Z"
+        },
+        {
+          "title": "One Pan Lemon Herb Pesto Chicken Pasta",
+          "description": "A bright and zesty one-pan meal featuring chicken, pasta, and pesto, with a hint of lemon and herbs for added flavor and easy cleanup.",
+          "cookTime": "30 mins",
+          "servings": "4",
+          "sourceUrl": "https://damndelicious.net/2021/03/17/one-pan-lemon-herb-pesto-chicken-pasta/",
+          "imageUrl": "https://damndelicious.net/wp-content/uploads/2021/03/one-pan-lemon-herb-pesto-chicken-pasta-2.jpg",
+          "rating": "4.8",
+          "ingredients": [
+            "chicken breast",
+            "parmesan",
+            "pasta",
+            "pesto"
+          ],
+          "cuisine": "Italian-American",
+          "difficulty": "Easy",
+          "id": "recipe_1760541488269_4",
+          "createdAt": "2025-10-15T15:18:08.269Z"
+        },
+        {
+          "title": "Pesto Stuffed Chicken",
+          "description": "Tender chicken breasts stuffed with a flavorful mixture of pesto, parmesan, and cream cheese, then baked to juicy perfection.",
+          "cookTime": "35 mins",
+          "servings": "4",
+          "sourceUrl": "https://www.wellplated.com/pesto-stuffed-chicken/",
+          "imageUrl": "https://www.wellplated.com/wp-content/uploads/2020/09/Pesto-Stuffed-Chicken-Breasts.jpg",
+          "rating": "4.9",
+          "ingredients": [
+            "chicken breast",
+            "parmesan",
+            "pesto"
+          ],
+          "cuisine": "American / Contemporary",
+          "difficulty": "Medium",
+          "id": "recipe_1760541488269_5",
+          "createdAt": "2025-10-15T15:18:08.269Z"
+        },
+        {
+          "title": "Chicken Pesto Pasta with Blistered Tomatoes",
+          "description": "A lightened-up pasta dish featuring tender chicken, a vibrant pesto sauce, blistered tomatoes, and a sprinkle of Parmesan for a fresh and flavorful meal.",
+          "cookTime": "30 mins",
+          "servings": "4",
+          "sourceUrl": "https://www.skinnytaste.com/chicken-pesto-pasta-with-blistered/",
+          "imageUrl": "https://www.skinnytaste.com/wp-content/uploads/2022/04/Chicken-Pesto-Pasta-with-Blistered-Tomatoes-1.jpg",
+          "rating": "4.9",
+          "ingredients": [
+            "chicken breast",
+            "parmesan",
+            "pasta",
+            "pesto"
+          ],
+          "cuisine": "Italian-American / Healthy",
+          "difficulty": "Easy",
+          "id": "recipe_1760541488269_6",
+          "createdAt": "2025-10-15T15:18:08.269Z"
+        },
+        {
+          "title": "Grilled Pesto Chicken",
+          "description": "Flavorful chicken breasts marinated in vibrant pesto and grilled, perfect to be served alongside pasta and a sprinkle of Parmesan.",
+          "cookTime": "30 mins",
+          "servings": "4",
+          "sourceUrl": "https://www.simplyrecipes.com/recipes/grilled_pesto_chicken/",
+          "imageUrl": "https://www.simplyrecipes.com/thmb/pX6z0T0oV9V0T1v7J8zY6e7K0Y0=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2018__07__Grilled-Pesto-Chicken-beauty-1-03058864d30c45169a924f7063f25164.jpg",
+          "rating": "4.5",
+          "ingredients": [
+            "chicken breast",
+            "pesto",
+            "parmesan",
+            "pasta"
+          ],
+          "cuisine": "Mediterranean / American",
+          "difficulty": "Easy",
+          "id": "recipe_1760541488269_7",
+          "createdAt": "2025-10-15T15:18:08.269Z"
+        }
+      ],
+      "timestamp": "2025-10-15T15:18:08.270Z"
+    }
+  ]
+}
